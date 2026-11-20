@@ -1,0 +1,28 @@
+body{
+	display:inline-block;
+}
+@font-face {
+  font-family: "forge";
+  src: url("fonts/forge.woff2") format("woff2");
+}
+h1{
+	font-family: forge, serif;
+}
+.commander{
+	padding:10px;
+	color:#000;
+	transition:  1s linear, transform 1s linear;
+}
+.commander:hover{
+	padding:15px;
+	color:#666666;
+@keyframes fondue {
+  from { opacity: 0; transform: translateX(-258px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+
+.soldes {
+  animation-name: fondue;
+  animation-duration: 5s;
+}
